@@ -1,3 +1,5 @@
+// schemas/authorType.ts
+
 import {UserIcon} from '@sanity/icons'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 

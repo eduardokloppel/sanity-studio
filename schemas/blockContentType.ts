@@ -1,3 +1,5 @@
+// schemas/blockContentType.ts
+
 import {defineType, defineArrayMember} from 'sanity'
 import {ImageIcon} from '@sanity/icons'
 

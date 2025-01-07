@@ -1,3 +1,5 @@
+// schemaTypes/post.ts
+
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
@@ -47,7 +49,7 @@ export default defineType({
     defineField({
       name: 'body',
       title: 'Body',
-      type: 'blockContent',
+      type: 'text',
     }),
   ],
 

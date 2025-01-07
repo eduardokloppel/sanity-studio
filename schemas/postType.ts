@@ -1,3 +1,5 @@
+// schemas/postType.ts
+
 import {DocumentTextIcon} from '@sanity/icons'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 
@@ -48,7 +50,7 @@ export const postType = defineType({
     }),
     defineField({
       name: 'body',
-      type: 'blockContent',
+      type: 'text',
       title: 'Body',
     }),
   ],
